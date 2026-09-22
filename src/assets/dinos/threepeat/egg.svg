@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eggGrad" x1="0.2" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#FAF6ED" />
+      <stop offset="35%" stop-color="#5E7570" />
+      <stop offset="100%" stop-color="#364341" />
+    </linearGradient>
+    <radialGradient id="eggGnd" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14110C" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#14110C" stop-opacity="0" />
+    </radialGradient>
+    <clipPath id="eggShellClip">
+      <path d="M 98 118 C 86 96 94 56 120 50 C 146 56 154 96 142 118 C 134 126 106 126 98 118 Z" />
+    </clipPath>
+  </defs>
+
+  <g transform="translate(0, 6)">
+    <!-- Shadow -->
+    <ellipse cx="120" cy="125" rx="44" ry="8" fill="url(#eggGnd)" />
+
+    <!-- Nest Twigs -->
+    <path d="M 76 120 Q 62 114 54 108 M 88 123 Q 78 117 70 111 M 100 125 Q 92 119 82 114" stroke="#362C20" stroke-width="3" stroke-linecap="round" fill="none" />
+    <path d="M 164 120 Q 178 114 186 108 M 152 123 Q 162 117 170 111 M 140 125 Q 148 119 158 114" stroke="#362C20" stroke-width="3" stroke-linecap="round" fill="none" />
+    <path d="M 94 126 Q 120 131 146 126" stroke="#261E15" stroke-width="4" stroke-linecap="round" fill="none" />
+
+    <!-- Egg Body -->
+    <path
+      d="M 98 118 C 86 96 94 56 120 50 C 146 56 154 96 142 118 C 134 126 106 126 98 118 Z"
+      fill="url(#eggGrad)"
+      stroke="#1E1711"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+
+    <!-- Internal Shell Patterns -->
+    <g clip-path="url(#eggShellClip)">
+      <ellipse cx="134" cy="90" rx="20" ry="28" fill="#364341" opacity="0.3" />
+      <ellipse cx="106" cy="108" rx="16" ry="14" fill="#FAF6ED" opacity="0.25" />
+      
+      <circle cx="112" cy="82" r="3" fill="#364341" opacity="0.6" />
+      <circle cx="126" cy="74" r="2.5" fill="#364341" opacity="0.6" />
+      <circle cx="135" cy="92" r="3.5" fill="#364341" opacity="0.6" />
+      <circle cx="116" cy="100" r="2.8" fill="#364341" opacity="0.6" />
+      <circle cx="106" cy="108" r="2.5" fill="#364341" opacity="0.6" />
+      <circle cx="128" cy="114" r="3.2" fill="#364341" opacity="0.6" />
+      <circle cx="138" cy="104" r="2" fill="#364341" opacity="0.6" />
+    
+    </g>
+
+    <!-- Shell Highlight Arc -->
+    <path
+      d="M 104 110 C 96 96 100 66 120 56"
+      stroke="#FAF6ED"
+      stroke-width="2.2"
+      fill="none"
+      stroke-linecap="round"
+      opacity="0.65"
+    />
+
+    <!-- Hairline Fossil Crack -->
+    <path
+      d="M 116 66 L 121 71 L 118 76 L 124 81 L 127 78"
+      stroke="#19201F"
+      stroke-width="1.6"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      fill="none"
+      opacity="0.85"
+    />
+  </g>
+</svg>

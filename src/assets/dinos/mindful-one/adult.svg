@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="nodoSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#57604C" />
+      <stop offset="100%" stop-color="#373D2E" />
+    </linearGradient>
+    <radialGradient id="nodoShad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14110C" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#14110C" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="120" cy="138" rx="62" ry="7" fill="url(#nodoShad)" />
+
+  <g transform="translate(10, 16)">
+    <!-- BACK LEGS -->
+    <g fill="#21261B">
+      <path d="M 76 80 L 72 108 L 84 108 L 88 80 Z" />
+      <path d="M 68 108 L 88 108 L 86 112 L 66 112 Z" />
+      <path d="M 126 82 L 124 108 L 134 108 L 136 82 Z" />
+      <path d="M 122 108 L 138 108 L 136 112 L 120 112 Z" />
+    </g>
+
+    <!-- LONG TAPERING CLUBLESS TAIL (Key distinction from Ankylosaurs!) -->
+    <path
+      d="M 64 74
+         C 46 76, 26 82, 6 90
+         C 26 88, 46 84, 64 86 Z"
+      fill="url(#nodoSkin)"
+      stroke="#1D1713"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+    <path d="M 10 89 C 26 87 46 83 64 85 L 64 82 C 46 81 28 84 14 88 Z" fill="#21261B" />
+
+    <!-- GROUNDED DEFENSIVE BODY -->
+    <path
+      d="M 64 74
+         C 64 56, 84 48, 114 48
+         C 134 48, 148 54, 154 62
+         C 152 74, 148 86, 134 90
+         C 114 94, 78 94, 64 86 Z"
+      fill="url(#nodoSkin)"
+      stroke="#1D1713"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+
+    <!-- PROMINENT LATERAL SHOULDER SPINES (Signature Nodosaurid feature) -->
+    <g fill="#ECE5D2" stroke="#1D1713" stroke-width="1.4" stroke-linejoin="round">
+      <!-- Main giant shoulder spine -->
+      <path d="M 138 58 L 148 48 L 144 64 Z" />
+      <!-- Secondary flank spine -->
+      <path d="M 118 56 L 125 48 L 124 62 Z" />
+      <!-- Third spine over hips -->
+      <path d="M 96 58 L 101 52 L 102 64 Z" />
+    </g>
+
+    <!-- Dermal nodule bands -->
+    <g fill="#ECE5D2" opacity="0.8">
+      <circle cx="78" cy="70" r="1.8" />
+      <circle cx="88" cy="72" r="1.8" />
+      <circle cx="108" cy="72" r="2" />
+      <circle cx="128" cy="72" r="2" />
+      <circle cx="86" cy="80" r="1.6" />
+      <circle cx="104" cy="82" r="1.8" />
+    </g>
+
+    <!-- FOREGROUND PILLAR LEGS -->
+    <!-- Foreleg -->
+    <g>
+      <path d="M 132 68 C 140 70 144 78 142 88 L 134 109 L 122 109 L 124 86 C 124 76 128 68 132 68 Z" fill="#4B5341" stroke="#1D1713" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 118 109 L 138 109 L 136 114 L 116 114 Z" fill="#21261B" stroke="#1D1713" stroke-width="1.8" stroke-linejoin="round" />
+      <circle cx="121" cy="113" r="1.4" fill="#FAF6ED" />
+      <circle cx="127" cy="113" r="1.4" fill="#FAF6ED" />
+      <circle cx="133" cy="113" r="1.4" fill="#FAF6ED" />
+    </g>
+
+    <!-- Hind Leg -->
+    <g>
+      <path d="M 80 62 C 94 64 100 74 98 86 C 96 95 90 100 82 98 L 76 109 L 64 109 L 68 86 C 70 76 74 64 80 62 Z" fill="#4B5341" stroke="#1D1713" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 60 109 L 80 109 L 78 114 L 58 114 Z" fill="#21261B" stroke="#1D1713" stroke-width="1.8" stroke-linejoin="round" />
+      <circle cx="63" cy="113" r="1.4" fill="#FAF6ED" />
+      <circle cx="69" cy="113" r="1.4" fill="#FAF6ED" />
+      <circle cx="75" cy="113" r="1.4" fill="#FAF6ED" />
+    </g>
+
+    <!-- NARROW PEAR-SHAPED SKULL (No horns on skull) -->
+    <g>
+      <path
+        d="M 152 62
+           C 160 52, 174 50, 186 54
+           C 194 58, 196 66, 190 72
+           C 180 76, 166 74, 154 70 Z"
+        fill="#373D2E"
+        stroke="#1D1713"
+        stroke-width="1.8"
+        stroke-linejoin="round"
+      />
+      <!-- Narrow beak -->
+      <path d="M 188 62 L 196 66 C 194 71 188 73 184 72 Z" fill="#21261B" stroke="#1D1713" stroke-width="1.3" stroke-linejoin="round" />
+
+      <!-- Mindful, Serene Eye -->
+      <path d="M 170 53 Q 175 50 180 53" stroke="#1D1713" stroke-width="1.8" fill="none" stroke-linecap="round" />
+      <ellipse cx="175" cy="56" rx="3.1" ry="2.6" fill="#1D1713" />
+      <circle cx="175.2" cy="56" r="1.6" fill="#84A462" />
+      <circle cx="175.5" cy="56" r="1.0" fill="#150E0A" />
+      <circle cx="176" cy="55.2" r="0.5" fill="#FFFFFF" />
+    </g>
+  </g>
+</svg>

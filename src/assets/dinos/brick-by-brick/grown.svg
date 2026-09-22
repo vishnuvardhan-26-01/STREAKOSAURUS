@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pachySkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#988056" />
+      <stop offset="100%" stop-color="#766038" />
+    </linearGradient>
+    <radialGradient id="pachyShad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14110C" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#14110C" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="120" cy="138" rx="54" ry="7" fill="url(#pachyShad)" />
+
+  <g transform="translate(15, 12)">
+    <!-- BACK HIND LEG -->
+    <g fill="#4F3F24">
+      <path d="M 90 76 C 86 86 88 98 92 108 L 102 108 C 100 98 98 87 95 76 Z" />
+      <path d="M 87 108 L 105 108 L 103 112 L 85 112 Z" />
+      <path d="M 84 112 L 80 115 M 94 112 L 94 116 M 103 112 L 107 115" stroke="#221C12" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- STIFF HORIZONTAL TAIL -->
+    <path d="M 68 74 C 44 68 24 64 8 70 C 24 78 44 86 68 86 Z" fill="url(#pachySkin)" stroke="#221C12" stroke-width="2" stroke-linejoin="round" />
+
+    <!-- BIPEDAL HERBIVORE TORSO -->
+    <path
+      d="M 66 74
+         C 66 56, 82 48, 112 50
+         C 124 51, 134 56, 140 64
+         C 146 54, 154 44, 168 40
+         C 182 38, 192 44, 188 54
+         C 182 60, 172 63, 162 65
+         C 150 67, 142 70, 134 70
+         C 126 80, 116 87, 94 87
+         C 76 87, 68 82, 66 74 Z"
+      fill="url(#pachySkin)"
+      stroke="#221C12"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+
+    <!-- Cream Underbelly -->
+    <path
+      d="M 76 76
+         C 88 84, 112 85, 126 76
+         C 118 82, 104 86, 90 85
+         C 82 84, 78 81, 76 76 Z"
+      fill="#EDE6D6"
+      opacity="0.85"
+    />
+
+    <!-- SMALL HERBIVORE FORELIMBS -->
+    <g>
+      <path d="M 126 68 C 130 70 132 75 130 80 L 126 81" stroke="#221C12" stroke-width="2.4" stroke-linecap="round" fill="none" />
+      <path d="M 130 80 L 133 82 M 128 81 L 130 84" stroke="#FAF6ED" stroke-width="1.3" stroke-linecap="round" />
+    </g>
+
+    <!-- FOREGROUND RUNNER LEG -->
+    <g>
+      <path d="M 96 60 C 110 62 116 73 112 87 C 108 96 100 99 92 95 C 84 89 85 76 91 66 Z" fill="#8E754C" stroke="#221C12" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 100 86 L 97 109 L 108 109 L 109 86 Z" fill="#78623B" stroke="#221C12" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 93 109 L 115 109 L 113 114 L 91 114 Z" fill="#584628" stroke="#221C12" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 92 114 L 86 117 M 103 114 L 103 118 M 113 114 L 119 117" stroke="#221C12" stroke-width="2.2" stroke-linecap="round" />
+    </g>
+
+    <!-- MASSIVE 9-INCH SOLID BONE DOME -->
+    <path
+      d="M 158 46
+         C 156 34, 166 29, 180 29
+         C 192 29, 196 38, 190 48 Z"
+      fill="#FAF7EE"
+      stroke="#221C12"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+    <!-- Dome Highlight -->
+    <path d="M 166 35.5 Q 180 25 188 37.5" stroke="#FFFFFF" stroke-width="2" fill="none" stroke-linecap="round" />
+
+    <!-- STUDDED SNOUT & OCCIPUT BONY KNOBS -->
+    <circle cx="192" cy="52" r="2" fill="#D8CEB8" stroke="#221C12" stroke-width="1.2" />
+    <circle cx="188" cy="55" r="1.8" fill="#D8CEB8" stroke="#221C12" stroke-width="1.2" />
+    <circle cx="156" cy="46" r="2.2" fill="#D8CEB8" stroke="#221C12" stroke-width="1.2" />
+    <circle cx="154" cy="50" r="1.8" fill="#D8CEB8" stroke="#221C12" stroke-width="1.2" />
+
+    <!-- SNOUT & EYE -->
+    <g>
+      <!-- Eye -->
+      <circle cx="172" cy="50" r="3" fill="#221C12" />
+      <circle cx="172.2" cy="50" r="1.8" fill="#D4A034" />
+      <circle cx="172.5" cy="50" r="1" fill="#120E08" />
+      <circle cx="173.1" cy="49.3" r="0.6" fill="#FFFFFF" />
+    </g>
+  </g>
+</svg>

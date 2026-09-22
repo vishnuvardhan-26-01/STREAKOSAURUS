@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="legSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2A231E" />
+      <stop offset="100%" stop-color="#181310" />
+    </linearGradient>
+    <linearGradient id="legGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F2CA65" />
+      <stop offset="100%" stop-color="#C28A22" />
+    </linearGradient>
+    <radialGradient id="legShad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14110C" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#14110C" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="120" cy="138" rx="64" ry="7.5" fill="url(#legShad)" />
+
+  <g transform="translate(14, 10)">
+    <!-- BACK LEG -->
+    <g fill="#140E0A">
+      <path d="M 94 76 C 90 86 92 98 96 109 L 106 109 C 104 98 102 87 99 76 Z" />
+      <path d="M 91 109 L 109 109 L 107 113 L 89 113 Z" />
+      <path d="M 88 113 L 84 116 M 98 113 L 98 117 M 107 113 L 111 116" stroke="#E5B650" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- COLOSSAL TAIL -->
+    <path
+      d="M 68 74
+         C 44 66, 22 58, 4 62
+         C 18 73, 44 86, 68 88 Z"
+      fill="url(#legSkin)"
+      stroke="#1D1713"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+    <path d="M 8 63 C 22 74 46 85 68 87 L 68 84 C 48 82 26 71 12 63 Z" fill="#140E0A" />
+
+    <!-- ROYAL GOLDEN DORSAL CREST -->
+    <path d="M 90 48 L 92 38 L 95 48 M 104 44 L 107 32 L 110 44 M 118 44 L 121 32 L 124 44 M 132 46 L 135 34 L 138 46 M 146 50 L 149 38 L 152 50" fill="#E5B650" stroke="#1D1713" stroke-width="1.6" stroke-linejoin="round" />
+       <!-- Mythic royal aura sparkles -->
+       <circle cx="107" cy="28" r="1.5" fill="#FFF2B2" />
+       <circle cx="135" cy="30" r="1.5" fill="#FFF2B2" />
+
+    <!-- COLOSSAL BARREL-CHESTED TYRANT BODY & S-NECK -->
+    <path
+      d="M 68 74
+         C 68 54, 86 44, 116 46
+         C 132 47, 144 54, 150 62
+         C 158 50, 170 42, 186 40
+         C 202 38, 214 44, 216 54
+         C 214 62, 204 66, 190 66
+         C 172 68, 156 70, 144 76
+         C 134 86, 122 90, 98 90
+         C 78 90, 68 84, 68 74 Z"
+      fill="url(#legSkin)"
+      stroke="#1D1713"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+
+    <!-- Rich Golden-Amber Underbelly -->
+    <path
+      d="M 76 76
+         C 90 85, 114 85, 132 76
+         C 140 70, 152 66, 168 61
+         C 156 61, 144 65, 136 70
+         C 122 81, 106 85, 88 84
+         C 80 83, 76 80, 76 76 Z"
+      fill="url(#legGold)"
+      opacity="0.9"
+    />
+
+    <!-- FOREARM WITH GOLD-TIPPED CLAWS -->
+    <g>
+      <path d="M 136 70 C 140 74 142 78 139 82 L 136 83" stroke="#1D1713" stroke-width="2.4" stroke-linecap="round" fill="none" />
+      <circle cx="139" cy="83" r="0.9" fill="#E5B650" />
+      <circle cx="137" cy="84" r="0.9" fill="#E5B650" />
+    </g>
+
+    <!-- FOREGROUND COLOSSAL TYRANNOSAUR LEG -->
+    <g>
+      <path d="M 98 58 C 116 60 126 72 122 88 C 118 97 106 101 96 97 C 88 91 88 76 94 65 Z" fill="#2A231E" stroke="#1D1713" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 104 86 L 100 110 L 112 110 L 114 86 Z" fill="#221C17" stroke="#1D1713" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 96 110 L 120 110 L 118 115 L 94 115 Z" fill="#140E0A" stroke="#1D1713" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 94 114 L 88 117 M 107 114 L 107 118 M 118 114 L 124 117" stroke="#E5B650" stroke-width="2.6" stroke-linecap="round" />
+    </g>
+
+    <!-- MASSIVE BONE-CRUSHING SKULL & GLOWING EYES -->
+    <g>
+      <!-- Heavy lacrimal brow crest -->
+      <path d="M 176 40 L 182 32 L 188 40 Z" fill="#E5B650" stroke="#1D1713" stroke-width="1.6" stroke-linejoin="round" />
+
+      <!-- Upper jaw -->
+      <path d="M 176 48 L 214 48 C 212 56 202 61 188 61 L 176 57 Z" fill="#181310" stroke="#1D1713" stroke-width="1.6" stroke-linejoin="round" />
+      <!-- Gleaming ivory teeth -->
+      <path d="M 182 49 L 183 53 L 185 49 M 190 49 L 191 54 L 193 49 M 198 49 L 200 54 L 202 49 M 207 49 L 208 53 L 210 49" stroke="#FFF8E7" stroke-width="1.4" stroke-linecap="round" fill="none" />
+
+      <!-- Lower Jaw -->
+      <path d="M 178 58 L 210 58 C 206 64 196 66 182 65 Z" fill="#140E0A" stroke="#1D1713" stroke-width="1.4" stroke-linejoin="round" />
+
+      <!-- Piercing Glowing Amber-Gold Gaze -->
+      <ellipse cx="178" cy="43" rx="3.6" ry="3.0" fill="#1D1713" />
+      <circle cx="178.2" cy="43" r="2.0" fill="#FFC738" />
+      <circle cx="178.5" cy="43" r="1.1" fill="#150E0A" />
+      <circle cx="179.1" cy="42.2" r="0.7" fill="#FFFFFF" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="iguaSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#546A47" />
+      <stop offset="100%" stop-color="#37472E" />
+    </linearGradient>
+    <radialGradient id="iguaShad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14110C" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#14110C" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="120" cy="138" rx="62" ry="7" fill="url(#iguaShad)" />
+
+  <g transform="translate(12, 14)">
+    <!-- BACK LEGS (Balanced facultative biped stance) -->
+    <g fill="#24301D">
+      <!-- Back Hind Leg -->
+      <path d="M 80 78 C 76 88 78 98 82 108 L 90 108 C 89 99 87 89 85 78 Z" />
+      <path d="M 78 108 L 94 108 L 92 112 L 76 112 Z" />
+      <!-- Back Forelimb (Grounded) -->
+      <path d="M 132 82 L 130 108 L 138 108 L 140 82 Z" />
+      <path d="M 128 108 L 142 108 L 140 112 L 126 112 Z" />
+    </g>
+
+    <!-- DEEP COUNTERWEIGHT HERBIVORE TAIL -->
+    <path
+      d="M 64 70
+         C 44 64, 24 60, 6 66
+         C 18 76, 42 86, 64 86 Z"
+      fill="url(#iguaSkin)"
+      stroke="#1D1713"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+    <path d="M 10 67 C 26 76 46 84 64 85 L 64 82 C 46 81 28 72 14 67 Z" fill="#24301D" />
+
+    <!-- HARMONIOUS BALANCED BODY & S-CURVED NECK -->
+    <path
+      d="M 64 70
+         C 64 54, 82 46, 110 46
+         C 128 46, 140 52, 148 60
+         C 156 50, 168 44, 182 42
+         C 196 40, 206 46, 208 54
+         C 204 60, 194 63, 182 64
+         C 168 64, 156 68, 144 74
+         C 134 84, 120 90, 96 90
+         C 78 90, 66 84, 64 70 Z"
+      fill="url(#iguaSkin)"
+      stroke="#1D1713"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+
+    <!-- Warm Cream Belly & Throat -->
+    <path
+      d="M 76 76
+         C 90 85, 114 85, 132 76
+         C 140 70, 152 66, 168 61
+         C 156 61, 144 65, 136 70
+         C 122 81, 106 85, 88 84
+         C 80 83, 76 80, 76 76 Z"
+      fill="#ECE4D0"
+      opacity="0.85"
+    />
+
+    <!-- Decorative dorsal camouflage stripes -->
+    
+
+    <!-- FOREGROUND FORELIMB WITH FAMOUS CONICAL THUMB SPIKE -->
+    <g>
+      <!-- Arm extending downwards -->
+      <path d="M 136 68 C 142 74 144 84 140 96 L 134 109" stroke="#1D1713" stroke-width="2.6" stroke-linecap="round" fill="none" />
+      <path d="M 126 109 L 142 109 L 140 113 L 124 113 Z" fill="#24301D" stroke="#1D1713" stroke-width="1.8" stroke-linejoin="round" />
+      <!-- Middle 3 hoof pads -->
+      <circle cx="130" cy="112" r="1.3" fill="#FAF6ED" />
+      <circle cx="135" cy="112" r="1.3" fill="#FAF6ED" />
+      <circle cx="139" cy="112" r="1.3" fill="#FAF6ED" />
+
+      <!-- THE CONICAL DEFENSIVE THUMB SPIKE (Held perpendicular!) -->
+      <g>
+        <path
+          d="M 134 100
+             L 142 96
+             L 137 104 Z"
+          fill="#FAF6ED"
+          stroke="#1D1713"
+          stroke-width="1.4"
+          stroke-linejoin="round"
+        />
+      </g>
+    </g>
+
+    <!-- FOREGROUND HIND LEG (Powerful balance pillar) -->
+    <g>
+      <path d="M 90 58 C 106 60 114 72 112 86 C 108 95 100 98 90 95 C 82 89 82 75 86 65 Z" fill="#485B3D" stroke="#1D1713" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 96 84 L 92 108 L 104 108 L 106 84 Z" fill="#37472E" stroke="#1D1713" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 88 108 L 110 108 L 108 113 L 86 113 Z" fill="#24301D" stroke="#1D1713" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 86 112 L 80 115 M 99 112 L 99 116 M 110 112 L 116 115" stroke="#1D1713" stroke-width="2.4" stroke-linecap="round" />
+    </g>
+
+    <!-- ELONGATED HORSE-LIKE HEAD WITH KERATINOUS BEAK -->
+    <g>
+      <!-- Snout & Cheek -->
+      <path
+        d="M 176 46
+           C 184 42, 196 42, 206 48
+           C 208 54, 202 60, 192 61
+           C 180 62, 172 56, 176 46 Z"
+        fill="#37472E"
+        stroke="#1D1713"
+        stroke-width="1.8"
+        stroke-linejoin="round"
+      />
+      <!-- Horny cropped browsing beak -->
+      <path d="M 204 48 L 210 52 C 208 56 202 58 198 57 Z" fill="#24301D" stroke="#1D1713" stroke-width="1.4" stroke-linejoin="round" />
+
+      <!-- Lower jaw -->
+      <path d="M 178 57 L 202 57 C 199 61 190 63 182 62 Z" fill="#24301D" stroke="#1D1713" stroke-width="1.3" stroke-linejoin="round" />
+
+      <!-- Calm Herbivore Eye -->
+      <ellipse cx="178" cy="48" rx="3.3" ry="2.8" fill="#1D1713" />
+      <circle cx="178.2" cy="48" r="1.8" fill="#C89E38" />
+      <circle cx="178.5" cy="48" r="1.1" fill="#150E0A" />
+      <circle cx="179" cy="47.2" r="0.6" fill="#FFFFFF" />
+    </g>
+  </g>
+</svg>

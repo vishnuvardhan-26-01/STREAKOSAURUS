@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="brachSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8F6A47" />
+      <stop offset="100%" stop-color="#725132" />
+    </linearGradient>
+    <radialGradient id="brachShad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14110C" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#14110C" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="120" cy="138" rx="54" ry="8" fill="url(#brachShad)" />
+
+  <g transform="translate(15, 8)">
+    <!-- BACK LEGS -->
+    <g fill="#4A341E">
+      <path d="M 68 92 L 64 112 L 75 112 L 78 94 Z" />
+      <path d="M 62 112 L 76 112 L 75 115 L 61 115 Z" />
+      <path d="M 118 78 L 112 112 L 123 112 L 127 80 Z" />
+      <path d="M 110 112 L 124 112 L 123 115 L 109 115 Z" />
+    </g>
+
+    <!-- BALANCED TAIL -->
+    <path d="M 50 82 C 30 86 16 94 4 102 C 20 99 38 92 50 88 Z" fill="url(#brachSkin)" stroke="#1D150E" stroke-width="2" stroke-linejoin="round" />
+
+    <!-- SEAMLESS SLOPING BODY & TOWERING NECK -->
+    <path
+      d="M 48 82
+         C 52 65, 74 57, 106 55
+         C 118 55, 126 44, 136 28
+         C 146 14, 156 6, 168 8
+         C 178 10, 180 18, 174 24
+         C 166 30, 156 44, 146 62
+         C 138 74, 134 82, 126 86
+         C 112 94, 88 93, 72 92
+         C 58 91, 50 88, 48 82 Z"
+      fill="url(#brachSkin)"
+      stroke="#1D150E"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+
+    <!-- Cream Throat & Underbelly Contour -->
+    <path
+      d="M 62 87
+         C 78 93, 100 93, 118 86
+         C 126 80, 134 68, 142 50
+         C 148 36, 154 22, 150 16
+         C 144 26, 136 44, 130 62
+         C 120 78, 106 88, 88 90
+         C 74 91, 64 89, 62 87 Z"
+      fill="#DFD4BD"
+      opacity="0.85"
+    />
+
+    <!-- FOREGROUND HIND LEG (Shorter) -->
+    <g>
+      <path d="M 72 74 C 84 76 88 84 86 93 L 77 115 L 65 115 L 65 93 C 65 83 68 75 72 74 Z" fill="#7E5B39" stroke="#1D150E" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 63 115 L 79 115 L 77 118 L 61 118 Z" fill="#523920" stroke="#1D150E" stroke-width="1.8" stroke-linejoin="round" />
+    </g>
+
+    <!-- FOREGROUND FRONT LEG (Tall pillar) -->
+    <g>
+      <path d="M 124 64 C 132 66 134 75 132 86 L 120 115 L 108 115 L 112 86 C 114 74 118 66 124 64 Z" fill="#7E5B39" stroke="#1D150E" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 106 115 L 122 115 L 121 118 L 105 118 Z" fill="#523920" stroke="#1D150E" stroke-width="1.8" stroke-linejoin="round" />
+    </g>
+
+    <!-- SCULPTED HEAD WITH CRANIAL DOME -->
+    <g>
+      <path d="M 154 14 C 154 6 164 4 172 6 C 180 8 182 16 176 22 L 158 20 Z" fill="#7E5B39" stroke="#1D150E" stroke-width="1.8" stroke-linejoin="round" />
+      <!-- Nasal Dome -->
+      <path d="M 162 6 Q 168 1 174 6" stroke="#1D150E" stroke-width="1.6" fill="none" />
+
+      <!-- Eye -->
+      <ellipse cx="164" cy="13" rx="2.6" ry="2.2" fill="#1D150E" />
+      <circle cx="164.2" cy="13" r="1.5" fill="#C49A45" />
+      <circle cx="164.7" cy="12.4" r="0.6" fill="#FFFFFF" />
+    </g>
+  </g>
+</svg>

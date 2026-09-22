@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="styraSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#685E3E" />
+      <stop offset="100%" stop-color="#4E462C" />
+    </linearGradient>
+    <radialGradient id="styraShad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14110C" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#14110C" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="120" cy="138" rx="58" ry="8" fill="url(#styraShad)" />
+
+  <g transform="translate(15, 12)">
+    <!-- BACK LEGS -->
+    <g fill="#383321">
+      <path d="M 68 84 L 64 107 L 76 107 L 78 86 Z" />
+      <path d="M 62 107 L 77 107 L 75 111 L 61 111 Z" />
+      <path d="M 126 86 L 122 107 L 132 107 L 134 88 Z" />
+      <path d="M 120 107 L 133 107 L 132 111 L 119 111 Z" />
+    </g>
+
+    <!-- SHORT TAIL -->
+    <path d="M 50 74 C 32 78 20 88 10 97 C 24 95 38 88 50 84 Z" fill="url(#styraSkin)" stroke="#1F1B12" stroke-width="2" stroke-linejoin="round" />
+
+    <!-- STURDY TORSO -->
+    <path
+      d="M 48 75
+         C 50 58, 68 48, 98 51
+         C 118 53, 132 61, 138 74
+         C 132 87, 116 92, 94 92
+         C 70 92, 52 87, 48 75 Z"
+      fill="url(#styraSkin)"
+      stroke="#1F1B12"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+    <path d="M 60 83 C 76 90 100 90 118 83 C 106 89 88 91 72 89 Z" fill="#D8D0BA" opacity="0.85" />
+
+    <!-- FOREGROUND HIND LEG -->
+    <g>
+      <path d="M 72 66 C 84 68 88 77 86 88 L 76 109 L 64 109 L 64 88 C 64 77 68 68 72 66 Z" fill="#5A5236" stroke="#1F1B12" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 62 109 L 78 109 L 76 113 L 60 113 Z" fill="#3D3724" stroke="#1F1B12" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 64 113 L 64 115 M 70 113 L 70 116 M 75 113 L 75 115" stroke="#1F1B12" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- FOREGROUND FRONT LEG -->
+    <g>
+      <path d="M 128 72 C 136 75 138 82 136 90 L 126 109 L 115 109 L 116 88 C 118 79 122 73 128 72 Z" fill="#5A5236" stroke="#1F1B12" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 113 109 L 128 109 L 127 113 L 112 113 Z" fill="#3D3724" stroke="#1F1B12" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 116 113 L 116 115 M 121 113 L 121 116 M 126 113 L 126 115" stroke="#1F1B12" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- RADIATING FRILL SPIKES -->
+    
+      <!-- 6 Grand Radiating Spikes -->
+      <path d="M 124 38 L 118 18 L 130 32 Z" fill="#FAF6ED" stroke="#1F1B12" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 132 32 L 134 10 L 142 28 Z" fill="#FAF6ED" stroke="#1F1B12" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 144 28 L 152 6 L 154 26 Z" fill="#FAF6ED" stroke="#1F1B12" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 154 28 L 168 10 L 164 28 Z" fill="#FAF6ED" stroke="#1F1B12" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 164 30 L 180 16 L 172 32 Z" fill="#FAF6ED" stroke="#1F1B12" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 170 34 L 188 26 L 178 38 Z" fill="#FAF6ED" stroke="#1F1B12" stroke-width="1.6" stroke-linejoin="round" />
+    
+
+    <!-- COMPACT FRILL BASE -->
+    <path
+      d="M 124 64 C 118 45 128 32 148 26 C 168 24 176 38 166 58 Z"
+      fill="#4E462C"
+      stroke="#1F1B12"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+    <ellipse cx="146" cy="38" rx="5.5" ry="3.8" fill="#A4522E" opacity="0.85" />
+    <ellipse cx="158" cy="46" rx="4.5" ry="3.2" fill="#A4522E" opacity="0.85" />
+
+    <!-- ENORMOUS STRAIGHT NASAL HORN (Signature Styracosaurus Spear) -->
+    <path
+      d="M 174 65
+         L 182.5 31
+         L 184 68 Z"
+      fill="#FAF6ED"
+      stroke="#1F1B12"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+
+    <!-- SNOUT & PARROT BEAK -->
+    <path d="M 148 60 C 156 58 170 60 182 67 C 188 72 186 77 178 80 L 152 77 Z" fill="url(#styraSkin)" stroke="#1F1B12" stroke-width="2" stroke-linejoin="round" />
+    <path d="M 178 72 L 188 76 L 176 80 Z" fill="#FAF6ED" stroke="#1F1B12" stroke-width="1.8" stroke-linejoin="round" />
+
+    <!-- EYE -->
+    <ellipse cx="154" cy="59" rx="3.5" ry="3" fill="#1F1B12" />
+    <circle cx="154.2" cy="59" r="2" fill="#D4A034" />
+    <circle cx="154.5" cy="59" r="1.1" fill="#100E0A" />
+    <circle cx="155.2" cy="58.2" r="0.7" fill="#FFFFFF" />
+  </g>
+</svg>

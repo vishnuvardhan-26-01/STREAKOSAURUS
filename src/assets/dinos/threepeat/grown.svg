@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="triSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#546B66" />
+      <stop offset="100%" stop-color="#415350" />
+    </linearGradient>
+    <radialGradient id="triShad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14110C" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#14110C" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="120" cy="138" rx="58" ry="8" fill="url(#triShad)" />
+
+  <g transform="translate(15, 12)">
+    <!-- BACK LEGS (Subtle depth) -->
+    <g fill="#333F3D">
+      <path d="M 68 84 L 64 107 L 76 107 L 78 86 Z" />
+      <path d="M 62 107 L 77 107 L 75 111 L 61 111 Z" />
+      <path d="M 126 86 L 122 107 L 132 107 L 134 88 Z" />
+      <path d="M 120 107 L 133 107 L 132 111 L 119 111 Z" />
+    </g>
+
+    <!-- TAIL -->
+    <path d="M 50 74 C 32 78 20 88 10 97 C 24 95 38 88 50 84 Z" fill="url(#triSkin)" stroke="#19201F" stroke-width="2" stroke-linejoin="round" />
+
+    <!-- SEAMLESS QUADRUPEDAL TORSO -->
+    <path
+      d="M 48 75
+         C 50 58, 68 48, 98 51
+         C 118 53, 132 61, 138 74
+         C 132 87, 116 92, 94 92
+         C 70 92, 52 87, 48 75 Z"
+      fill="url(#triSkin)"
+      stroke="#19201F"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+    <!-- Underbelly -->
+    <path d="M 60 83 C 76 90 100 90 118 83 C 106 89 88 91 72 89 Z" fill="#D2CBC0" opacity="0.8" />
+
+    <!-- FOREGROUND HIND LEG -->
+    <g>
+      <path d="M 72 66 C 84 68 88 77 86 88 L 76 109 L 64 109 L 64 88 C 64 77 68 68 72 66 Z" fill="#526662" stroke="#19201F" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 62 109 L 78 109 L 76 113 L 60 113 Z" fill="#364341" stroke="#19201F" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 64 113 L 64 115 M 70 113 L 70 116 M 75 113 L 75 115" stroke="#19201F" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- FOREGROUND FRONT LEG -->
+    <g>
+      <path d="M 128 72 C 136 75 138 82 136 90 L 126 109 L 115 109 L 116 88 C 118 79 122 73 128 72 Z" fill="#526662" stroke="#19201F" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 113 109 L 128 109 L 127 113 L 112 113 Z" fill="#364341" stroke="#19201F" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 116 113 L 116 115 M 121 113 L 121 116 M 126 113 L 126 115" stroke="#19201F" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- SCALLOPED NECK FRILL WITH TERRACOTTA EYELETS -->
+    <path
+      d="M 124 64 C 118 45 128 30 148 24 C 168 22 178 36 168 56 Z"
+      fill="#485A56"
+      stroke="#19201F"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+    <ellipse cx="144" cy="37" rx="6" ry="4" fill="#9E5A38" opacity="0.85" />
+    <ellipse cx="156" cy="45" rx="5" ry="3.5" fill="#9E5A38" opacity="0.85" />
+
+    <!-- BROW HORNS -->
+    <path d="M 148 46 L 190 22 L 184 32 Z" fill="#FAF6ED" stroke="#19201F" stroke-width="1.8" stroke-linejoin="round" />
+       <path d="M 154 50 L 198 26 L 192 37 Z" fill="#FAF6ED" stroke="#19201F" stroke-width="2" stroke-linejoin="round" />
+
+    <!-- NASAL HORN -->
+    <path d="M 178 62 L 196 50 L 188 66 Z" fill="#FAF6ED" stroke="#19201F" stroke-width="1.8" stroke-linejoin="round" />
+
+    <!-- SNOUT & PARROT BEAK -->
+    <path d="M 148 59 C 156 57 170 59 182 66 C 188 71 186 76 178 79 L 152 76 Z" fill="url(#triSkin)" stroke="#19201F" stroke-width="2" stroke-linejoin="round" />
+    <path d="M 178 71 L 188 75 L 176 79 Z" fill="#FAF6ED" stroke="#19201F" stroke-width="1.8" stroke-linejoin="round" />
+
+    <!-- EYE -->
+    <ellipse cx="154" cy="58" rx="3.5" ry="3" fill="#19201F" />
+    <circle cx="154.2" cy="58" r="2" fill="#D4A034" />
+    <circle cx="154.5" cy="58" r="1.1" fill="#101514" />
+    <circle cx="155.2" cy="57.2" r="0.7" fill="#FFFFFF" />
+  </g>
+</svg>

@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="deinoSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7D4428" />
+      <stop offset="100%" stop-color="#572B16" />
+    </linearGradient>
+    <radialGradient id="deinoShad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14110C" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#14110C" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="120" cy="138" rx="58" ry="7" fill="url(#deinoShad)" />
+
+  <g transform="translate(14, 12)">
+    <!-- BACK LEG -->
+    <g fill="#3D1C0D">
+      <path d="M 88 78 C 84 88 84 98 88 108 L 96 108 C 96 99 94 89 92 78 Z" />
+      <path d="M 86 108 L 102 108 L 100 112 L 84 112 Z" />
+      <path d="M 82 112 L 78 115 M 92 112 L 92 116 M 100 112 L 104 115" stroke="#1D1713" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- STIFF ROD TAIL WITH TERMINAL FEATHER FAN -->
+    <path
+      d="M 68 72
+         C 46 64, 26 58, 6 60
+         C 18 69, 42 79, 68 81 Z"
+      fill="url(#deinoSkin)"
+      stroke="#1D1713"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+    <!-- Tail Feather Fan Plumes -->
+    <path d="M 6 60 L -6 56 L 0 62 L -8 63 L 2 67 L -4 70 L 8 70 Z" fill="#C28E4A" stroke="#1D1713" stroke-width="1.3" stroke-linejoin="round" />
+
+    <!-- ATHLETIC PREDATORY BODY & HORIZONTAL NECK -->
+    <path
+      d="M 68 72
+         C 68 56, 84 50, 110 50
+         C 126 50, 138 56, 146 62
+         C 154 52, 166 46, 180 44
+         C 194 42, 204 48, 206 56
+         C 204 62, 196 66, 184 66
+         C 168 67, 154 69, 142 74
+         C 134 84, 122 88, 98 88
+         C 78 88, 68 82, 68 72 Z"
+      fill="url(#deinoSkin)"
+      stroke="#1D1713"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+
+    <!-- Countershaded Underbelly & Throat -->
+    <path
+      d="M 76 76
+         C 90 85, 114 85, 132 76
+         C 140 70, 152 66, 168 61
+         C 156 61, 144 65, 136 70
+         C 122 81, 106 85, 88 84
+         C 80 83, 76 80, 76 76 Z"
+      fill="#F4E8D4"
+      opacity="0.85"
+    />
+
+    <!-- WING FEATHER PLUMAGE (Along forelimb) -->
+    <g>
+      <path d="M 132 66 C 138 72 142 80 146 88 L 138 90" stroke="#1D1713" stroke-width="2" stroke-linecap="round" fill="none" />
+      <!-- Primary flight/display feathers -->
+      <path d="M 136 74 L 126 84 M 140 78 L 130 90 M 144 83 L 134 96" stroke="#C28E4A" stroke-width="2.6" stroke-linecap="round" />
+      <path d="M 137 75 L 128 84 M 141 79 L 132 90 M 145 84 L 136 96" stroke="#1D1713" stroke-width="1.2" stroke-linecap="round" />
+      <!-- Sharp grasping hand claws -->
+      <path d="M 146 88 L 152 92 M 144 90 L 149 95 M 141 91 L 145 97" stroke="#FAF6ED" stroke-width="1.6" stroke-linecap="round" />
+    </g>
+
+    <!-- FOREGROUND HIND LEG WITH RAISED SICKLE CLAW -->
+    <g>
+      <path d="M 94 58 C 110 60 118 72 116 86 C 112 95 104 98 94 95 C 86 89 86 75 90 65 Z" fill="#6B381E" stroke="#1D1713" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 100 84 L 96 108 L 108 108 L 110 84 Z" fill="#572B16" stroke="#1D1713" stroke-width="1.8" stroke-linejoin="round" />
+      <!-- Foot base (resting on 3rd & 4th toes) -->
+      <path d="M 96 108 L 116 108 L 114 113 L 94 113 Z" fill="#3D1C0D" stroke="#1D1713" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 105 113 L 105 117 M 114 113 L 120 116" stroke="#1D1713" stroke-width="2.4" stroke-linecap="round" />
+
+      <!-- THE HYPER-EXTENSIBLE 2ND TOE SICKLE CLAW (Held aloft!) -->
+      <g>
+        <!-- Elevated toe joint -->
+        <path d="M 96 108 Q 90 102 91 97" stroke="#572B16" stroke-width="3" stroke-linecap="round" fill="none" />
+        <!-- Massive curved lethal sickle claw -->
+        <path
+          d="M 91 97
+             C 86 92, 80 91, 74 91.6
+             C 79 97, 85 102, 91 103 Z"
+          fill="#FAF6ED"
+          stroke="#1D1713"
+          stroke-width="1.5"
+          stroke-linejoin="round"
+        />
+      </g>
+    </g>
+
+    <!-- SLEEK SKULL & JAWS -->
+    <g>
+      <!-- Upper jaw -->
+      <path d="M 174 50 L 206 50 C 204 56 196 60 184 60 L 174 57 Z" fill="#4A2311" stroke="#1D1713" stroke-width="1.5" stroke-linejoin="round" />
+      <!-- Sharp backward-curved predatory teeth -->
+      <path d="M 180 51 L 181 54 L 183 51 M 187 51 L 188 54 L 190 51 M 194 51 L 195 54 L 197 51 M 200 51 L 201 54 L 203 51" stroke="#FAF6ED" stroke-width="1.1" stroke-linecap="round" fill="none" />
+
+      <!-- Lower Jaw -->
+      <path d="M 176 58 L 202 58 C 199 63 191 65 180 64 Z" fill="#3D1C0D" stroke="#1D1713" stroke-width="1.3" stroke-linejoin="round" />
+
+      <!-- Fierce Amber Eye -->
+      <ellipse cx="174" cy="46" rx="3.3" ry="2.8" fill="#1D1713" />
+      <circle cx="174.2" cy="46" r="1.8" fill="#F0C032" />
+      <circle cx="174.5" cy="46" r="1.1" fill="#150E0A" />
+      <circle cx="175" cy="45.2" r="0.6" fill="#FFFFFF" />
+    </g>
+  </g>
+</svg>

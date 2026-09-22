@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="paraSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6B7A56" />
+      <stop offset="100%" stop-color="#52613E" />
+    </linearGradient>
+    <radialGradient id="paraShad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14110C" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#14110C" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="120" cy="138" rx="58" ry="7" fill="url(#paraShad)" />
+
+  <g transform="translate(15, 12)">
+    <!-- BACK LEGS -->
+    <g fill="#333E26">
+      <path d="M 76 82 L 72 106 L 82 106 L 84 84 Z" />
+      <path d="M 70 106 L 83 106 L 82 109 L 69 109 Z" />
+      <path d="M 126 84 L 122 106 L 132 106 L 134 86 Z" />
+      <path d="M 120 106 L 133 106 L 132 109 L 119 109 Z" />
+    </g>
+
+    <!-- DEEP PADDLE TAIL -->
+    <path d="M 68 72 C 46 72 26 78 8 84 C 24 88 46 86 68 83 Z" fill="url(#paraSkin)" stroke="#1C2216" stroke-width="2" stroke-linejoin="round" />
+
+    <!-- HADROSAUR TORSO WITH HIGH BACK RIDGE -->
+    <path
+      d="M 66 72
+         C 68 54, 88 44, 116 48
+         C 128 50, 138 58, 146 68
+         C 152 56, 160 48, 172 44
+         C 184 42, 192 48, 188 56
+         C 182 60, 172 63, 160 66
+         C 148 70, 140 76, 134 82
+         C 124 88, 106 91, 88 89
+         C 74 88, 68 82, 66 72 Z"
+      fill="url(#paraSkin)"
+      stroke="#1C2216"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+
+    <!-- Cream Throat & Belly -->
+    <path
+      d="M 76 78
+         C 90 86, 112 86, 126 80
+         C 134 76, 144 68, 154 62
+         C 148 64, 140 67, 134 69
+         C 122 80, 106 84, 88 83 Z"
+      fill="#DFD8C4"
+      opacity="0.85"
+    />
+
+    <!-- ICONIC BACKWARD-CURVING TUBULAR CRANIAL CREST -->
+    <!-- Extended backward from skull -->
+    <path
+      d="M 174 44
+         C 151.6 31.2, 142 37.6, 142 36
+         C 142 32, 148.4 36, 170 42 Z"
+      fill="#B85834"
+      stroke="#1C2216"
+      stroke-width="1.8"
+      stroke-linejoin="round"
+    />
+    <!-- Terracotta Accent Stripe on Crest -->
+    <path
+      d="M 172 43
+         C 152.8 33.4, 143.2 38, 141.6 35"
+      stroke="#FAF6ED"
+      stroke-width="1.4"
+      fill="none"
+      stroke-linecap="round"
+    />
+
+    <!-- FOREGROUND HIND LEG -->
+    <g>
+      <path d="M 80 66 C 92 68 96 76 94 86 L 84 109 L 72 109 L 72 87 C 72 77 76 68 80 66 Z" fill="#546440" stroke="#1C2216" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 70 109 L 87 109 L 85 113 L 68 113 Z" fill="#38442A" stroke="#1C2216" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 72 113 L 72 115 M 78 113 L 78 116 M 84 113 L 84 115" stroke="#1C2216" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- FOREGROUND FRONT LEG -->
+    <g>
+      <path d="M 128 72 C 136 74 138 82 136 89 L 126 109 L 115 109 L 116 88 C 118 78 122 72 128 72 Z" fill="#546440" stroke="#1C2216" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 113 109 L 128 109 L 127 113 L 112 113 Z" fill="#38442A" stroke="#1C2216" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 116 113 L 116 115 M 121 113 L 121 116 M 126 113 L 126 115" stroke="#1C2216" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- DUCK-LIKE HORNY BILL & EYE -->
+    <g>
+      <path d="M 178 52 C 184 51 192 53 194 56 C 194 59 188 61 180 60 Z" fill="#D4CCA8" stroke="#1C2216" stroke-width="1.4" stroke-linejoin="round" />
+
+      <!-- Eye -->
+      <ellipse cx="174" cy="49" rx="3.2" ry="2.7" fill="#1C2216" />
+      <circle cx="174.2" cy="49" r="1.7" fill="#C49638" />
+      <circle cx="174.5" cy="49" r="1" fill="#10150E" />
+      <circle cx="175.1" cy="48.3" r="0.6" fill="#FFFFFF" />
+    </g>
+  </g>
+</svg>

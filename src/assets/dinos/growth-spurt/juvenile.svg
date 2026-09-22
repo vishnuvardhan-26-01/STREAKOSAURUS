@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="diloSkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6E8254" />
+      <stop offset="100%" stop-color="#52633C" />
+    </linearGradient>
+    <radialGradient id="diloShad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14110C" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#14110C" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="120" cy="138" rx="46" ry="7" fill="url(#diloShad)" />
+
+  <g transform="translate(15, 12)">
+    <!-- BACK LEG -->
+    <g fill="#364225">
+      <path d="M 88 74 L 84 90 L 78 103 L 86 103 L 91 92 L 95 77 Z" />
+      <path d="M 76 103 L 89 103 L 87 107 L 74 107 Z" />
+      <path d="M 73 107 L 70 109 M 83 107 L 83 110 M 88 107 L 91 109" stroke="#1B2215" stroke-width="1.6" stroke-linecap="round" />
+    </g>
+
+    <!-- LONG SLENDER TAIL -->
+    <path d="M 68 66 C 46 64 24 67 4 72 C 22 79 46 76 68 73 Z" fill="url(#diloSkin)" stroke="#1B2215" stroke-width="1.8" stroke-linejoin="round" />
+    <path d="M 16 70 L 22 64 M 32 71 L 38 65 M 48 72 L 54 66" stroke="#BA4E26" stroke-width="2" stroke-linecap="round" opacity="0.75" />
+
+    <!-- SLENDER SWIFT TORSO & ARCHING NECK -->
+    <path
+      d="M 66 68
+         C 74 56, 96 54, 120 59
+         C 126 53, 134 42, 148 36
+         C 164 34, 174 38, 176 46
+         C 176 52, 168 55, 156 58
+         C 144 62, 136 68, 126 71
+         C 114 79, 96 82, 78 80
+         C 70 78, 66 74, 66 68 Z"
+      fill="url(#diloSkin)"
+      stroke="#1B2215"
+      stroke-width="1.8"
+      stroke-linejoin="round"
+    />
+
+    <!-- Cream Underbelly -->
+    <path
+      d="M 76 73
+         C 90 80, 110 79, 118 75
+         C 122 71, 130 64, 138 56
+         C 132 58, 126 62, 120 64
+         C 110 75, 94 78, 80 77 Z"
+      fill="#DCD7C2"
+      opacity="0.85"
+    />
+
+    <!-- TWIN HIGH SEMI-CIRCULAR CRANIAL CRESTS (In Vibrant Burnt Orange) -->
+    <!-- Far Crest -->
+    <path
+      d="M 152 38
+         C 152 28.9, 170 28.9, 172 38 Z"
+      fill="#9C3A16"
+      stroke="#1B2215"
+      stroke-width="1.5"
+      stroke-linejoin="round"
+    />
+    <!-- Near Crest with cream highlights -->
+    <path
+      d="M 156 37
+         C 156 27.200000000000003, 176 27.200000000000003, 178 37 Z"
+      fill="#BA4E26"
+      stroke="#1B2215"
+      stroke-width="1.8"
+      stroke-linejoin="round"
+    />
+    <path
+      d="M 160 30.7 Q 167 27.9 174 30.7"
+      stroke="#FAF6ED"
+      stroke-width="1.4"
+      fill="none"
+      stroke-linecap="round"
+    />
+
+    <!-- FORELIMB WITH 4 DIGITS -->
+    <g>
+      <path d="M 120 65 Q 130 71 124 78 L 118 76" stroke="#485834" stroke-width="2.6" stroke-linecap="round" fill="none" />
+      <path d="M 124 78 L 129 80 M 122 79 L 127 82 M 120 80 L 124 84" stroke="#FAF6ED" stroke-width="1.4" stroke-linecap="round" />
+    </g>
+
+    <!-- FOREGROUND RUNNER LEG -->
+    <g>
+      <path d="M 92 61 C 104 63 108 72 104 83 C 99 90 90 90 85 82 C 82 75 85 66 92 61 Z" fill="#5C6E44" stroke="#1B2215" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 94 82 L 96 102 L 87 102 L 85 85 Z" fill="#4E5E38" stroke="#1B2215" stroke-width="1.6" stroke-linejoin="round" />
+      <path d="M 85 102 L 103 102 L 101 106 L 83 106 Z" fill="#3B482A" stroke="#1B2215" stroke-width="1.6" stroke-linejoin="round" />
+      <path d="M 92 106 L 92 109 M 100 106 L 103 108" stroke="#1B2215" stroke-width="1.8" stroke-linecap="round" />
+    </g>
+
+    <!-- SNOUT WITH SUBNARIAL NOTCH (Kinked upper jaw) & EYE -->
+    <g>
+      <!-- Kinked jaw -->
+      <path d="M 162 47 L 170 47 L 172 49 L 178 48 C 176 53 166 54 158 51 Z" fill="#485834" stroke="#1B2215" stroke-width="1.4" stroke-linejoin="round" />
+      <path d="M 164 47 L 166 50 L 168 47 L 174 49" stroke="#FAF6ED" stroke-width="1" stroke-linecap="round" fill="none" />
+
+      <!-- Eye -->
+      <circle cx="158" cy="42" r="3" fill="#1B2215" />
+      <circle cx="158.2" cy="42" r="1.8" fill="#D49E34" />
+      <circle cx="158.5" cy="42" r="1" fill="#120E08" />
+      <circle cx="159.1" cy="41.3" r="0.6" fill="#FFFFFF" />
+    </g>
+  </g>
+</svg>

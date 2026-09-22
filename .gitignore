@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Build outputs
+/dist
+/dist-ssr
+/desktop_dist
+*.local
+
+# Tauri
+/src-tauri/target/
+/src-tauri/gen/schemas/
+
+# Editor / IDE / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.freebuff/
+
+# Logs and temp files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+_build-*.txt
+UsersmsraoAppDataLocalTemp*
+tsconfig.tsbuildinfo
+scratch/
+
+# Temporary / scratch preview artifacts
+preview_batch*.png
+preview_batch*.html
+master_dino_showcase.png
+master_dino_showcase.html
+final_rex.*
+perfect_rex.*
+rex_*.png
+rex_*.html
+rex_*.svg
+test_dino_shapes.*
+temp_render.*
+recovered_art.txt
+check_*.mjs
+inspect_*.mjs
+scratch_*.mjs
+render_*.mjs
+run_*.mjs
+generate_species_*.mjs

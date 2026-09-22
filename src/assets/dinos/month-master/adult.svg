@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 160" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ankySkin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#645846" />
+      <stop offset="100%" stop-color="#4C4234" />
+    </linearGradient>
+    <radialGradient id="ankyShad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14110C" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#14110C" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <ellipse cx="120" cy="138" rx="60" ry="8" fill="url(#ankyShad)" />
+
+  <g transform="translate(15, 14)">
+    <!-- BACK LEGS (Low, sturdy) -->
+    <g fill="#332D23">
+      <path d="M 76 86 L 72 106 L 82 106 L 84 88 Z" />
+      <path d="M 70 106 L 83 106 L 82 109 L 69 109 Z" />
+      <path d="M 132 88 L 128 106 L 136 106 L 138 90 Z" />
+      <path d="M 126 106 L 137 106 L 136 109 L 125 109 Z" />
+    </g>
+
+    <!-- HEAVY TAIL ENDING IN BONE CLUB -->
+    <path d="M 68 78 C 46 78 28 82 12 85 C 28 88 48 86 68 84 Z" fill="url(#ankySkin)" stroke="#1D1711" stroke-width="2" stroke-linejoin="round" />
+    <ellipse cx="10" cy="85" rx="8" ry="6.5" fill="#544A3D" stroke="#1D1711" stroke-width="1.8" />
+       <circle cx="10" cy="85" r="2.5" fill="#D8D2BC" opacity="0.7" />
+
+    <!-- BROAD FLATTENED ARMORED TORSO -->
+    <path
+      d="M 64 78
+         C 64 62, 82 52, 114 54
+         C 134 56, 148 64, 154 75
+         C 162 73, 172 76, 178 82
+         C 182 86, 180 90, 172 92
+         C 160 90, 148 88, 140 88
+         C 126 92, 102 92, 84 90
+         C 72 88, 66 84, 64 78 Z"
+      fill="url(#ankySkin)"
+      stroke="#1D1711"
+      stroke-width="2"
+      stroke-linejoin="round"
+    />
+
+    <!-- KEELED OSTEODERM ARMOR SCUTES -->
+    <g fill="#3D352B" stroke="#1D1711" stroke-width="1.4" stroke-linejoin="round">
+      <path d="M 76 68 L 84 64 L 92 68 L 84 72 Z" />
+      <path d="M 96 64 L 104 60 L 112 64 L 104 68 Z" />
+      <path d="M 116 63 L 124 59 L 132 63 L 124 67 Z" />
+      <path d="M 134 68 L 142 64 L 148 68 L 142 72 Z" />
+      <!-- Lower row -->
+      <path d="M 84 74 L 92 70 L 100 74 L 92 78 Z" fill="#D8D2BC" opacity="0.85" />
+      <path d="M 104 72 L 112 68 L 120 72 L 112 76 Z" fill="#D8D2BC" opacity="0.85" />
+      <path d="M 124 71 L 132 67 L 140 71 L 132 75 Z" fill="#D8D2BC" opacity="0.85" />
+    </g>
+
+    <!-- LATERAL DEFENSIVE SPIKES -->
+    <path d="M 70 74 L 62 70 L 68 76 Z" fill="#FAF6ED" stroke="#1D1711" stroke-width="1.4" stroke-linejoin="round" />
+    <path d="M 148 76 L 156 73 L 150 79 Z" fill="#FAF6ED" stroke="#1D1711" stroke-width="1.4" stroke-linejoin="round" />
+
+    <!-- FOREGROUND HIND LEG -->
+    <g>
+      <path d="M 80 72 C 92 74 96 82 94 91 L 85 109 L 72 109 L 72 90 C 72 80 76 73 80 72 Z" fill="#544A3D" stroke="#1D1711" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 70 109 L 87 109 L 85 113 L 68 113 Z" fill="#383025" stroke="#1D1711" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 72 113 L 72 115 M 78 113 L 78 116 M 84 113 L 84 115" stroke="#1D1711" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- FOREGROUND FRONT LEG -->
+    <g>
+      <path d="M 134 76 C 140 78 142 85 140 92 L 132 109 L 122 109 L 123 90 C 125 82 129 77 134 76 Z" fill="#544A3D" stroke="#1D1711" stroke-width="2" stroke-linejoin="round" />
+      <path d="M 120 109 L 134 109 L 133 113 L 119 113 Z" fill="#383025" stroke="#1D1711" stroke-width="1.8" stroke-linejoin="round" />
+      <path d="M 122 113 L 122 115 M 127 113 L 127 116 M 132 113 L 132 115" stroke="#1D1711" stroke-width="2" stroke-linecap="round" />
+    </g>
+
+    <!-- WIDE TRIANGULAR SKULL WITH CHEEK HORNS -->
+    <path d="M 152 74 L 146 68 L 154 71 Z" fill="#FAF6ED" stroke="#1D1711" stroke-width="1.4" stroke-linejoin="round" />
+    <!-- Eye -->
+    <ellipse cx="168" cy="82" rx="2.8" ry="2.4" fill="#1D1711" />
+    <circle cx="168.2" cy="82" r="1.5" fill="#C49A45" />
+    <circle cx="168.7" cy="81.4" r="0.6" fill="#FFFFFF" />
+  </g>
+</svg>
